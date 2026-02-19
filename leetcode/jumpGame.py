@@ -51,4 +51,5 @@ it satisfy so we return True
 we use farthest = max(farthest, i + nums[i]) to find out the furthest index the jump could reach 
 nums[i] is the max jump we can do and since we doing greedy algoithm so we maximize it
 keep doing the loop untill we can reach the last index number
+
 """
