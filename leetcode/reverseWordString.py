@@ -91,5 +91,19 @@ the "manual" way is to iterate through the string from the end to the beginning,
 skip any trailing spaces, then find the end of the last word, then move left until you find a space again,
 which will be the start of the last word.
 then you can extract the word and append it to the result string.
+Algorithm Idea
 
+Start from the end
+
+Skip trailing spaces
+
+Find the end of a word
+
+Move backward until space
+
+Extract that word
+
+Append to result
+
+Continue
 """
